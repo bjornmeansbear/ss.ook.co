@@ -11,6 +11,10 @@ header {
   text-align: center !important;
 }
 
+header h1 {
+  margin: 16px 0;
+}
+
 header h1 a {
   border: 6px solid rgba(61,255,173,1);
   display: inline-block;
@@ -35,11 +39,29 @@ header h1 a:hover {
 #slideshowwrap {
   background: rgba(243,243,243,1);
   padding-bottom: 50px;
+  padding-top: 100px;
+  position: relative;
+}
+
+#slideshowwrap article {
+}
+
+#slideshowwrap section.image {
+  min-height: 500px;
+}
+
+#slideshowwrap section.image figure {}
+
+#slideshowwrap section.image figure img {}
+
+#slideshowwrap section.image p {
+  font-size: 150%;
+  line-height: 1.33;
 }
 
 #slideshowwrap .cycle-pager {
   text-align: center; 
-  margin-top: 50px;
+  margin-top: 25px;
   }
   
 #slideshowwrap .cycle-pager span {
